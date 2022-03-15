@@ -27,6 +27,7 @@
 .blog-card:hover {
   position: relative;
   top: -5px;
+  cursor: pointer;
 }
 
 .blog-card-img {

@@ -2,6 +2,8 @@ const path = require('path')
 const express = require('express')
 const hbs = require('hbs')
 
+const getBlogContent = require('./utils/getBlogContent')
+
 const app = express()
 const port = process.env.PORT || 3000
 
@@ -26,7 +28,13 @@ app.get('/blogs', (req, res) => {
 })
 
 app.get('/blogs/:slug', (req, res) => {
-    res.send({ message: req.params.slug })
+    res.render('blog', { slug: req.params.slug })
+})
+
+app.get('/getBlogContent/:slug', (req, res) => {
+    getBlogContent(req.params.slug, (blogContent) => {
+        res.send(blogContent)
+    })
 })
 
 app.listen(port, () => {
