@@ -1,0 +1,40 @@
+/* ****************************** */
+/* HERO */
+/* ****************************** */
+
+.hero-section {
+  background-color: #e6f2fa;
+  padding-top: 8rem;
+  padding-bottom: 18rem;
+  position: relative;
+}
+
+.hero-desc {
+  font-size: 3rem;
+  margin-bottom: 3.2rem;
+}
+
+.cta-btn {
+  font-size: 3rem;
+}
+
+.custom-shape-divider-bottom-1647011560 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647011560 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 88px;
+}
+
+.custom-shape-divider-bottom-1647011560 .shape-fill {
+  fill: #ffffff;
+}

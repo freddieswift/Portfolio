@@ -1,0 +1,48 @@
+/* ****************************** */
+/* ABOUT ME */
+/* ****************************** */
+
+.about-me-section {
+  background-color: #fff;
+  padding-top: 9.6rem;
+  padding-bottom: 18rem;
+  position: relative;
+}
+
+.about-me-info {
+  align-self: center;
+}
+
+.about-me-heading {
+  margin-bottom: 1.6rem;
+}
+
+.about-me-desc {
+  font-size: 2rem;
+}
+
+.about-me-img {
+  width: 75%;
+  justify-self: center;
+}
+
+.custom-shape-divider-bottom-1647015726 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1647015726 svg {
+  position: relative;
+  display: block;
+  width: calc(151% + 1.3px);
+  height: 92px;
+}
+
+.custom-shape-divider-bottom-1647015726 .shape-fill {
+  fill: #e6f2fa;
+}

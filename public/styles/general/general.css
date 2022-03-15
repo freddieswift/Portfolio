@@ -1,0 +1,109 @@
+/* 
+--- 01 TYPOGRAPHY SYSTEM ---
+
+-FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+-FONT WEIGHT SYSTEM
+
+-LINE HEIGHT SYSTEM
+Default: 1
+
+--- 02 COLORS ---
+
+Primary: #007ACC
+Shade: #0062a3
+Tint: #e6f2fa
+
+Grey
+Dark: #333
+Light: #555
+
+--- 05 SHADOWS ---
+
+--- 06 BORDER RADUIS ---
+
+--- 07 WHITESPACE ---
+
+-Spacing System (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+}
+
+/* ****************************** */
+/* GENERAL REUSABLE COMPONENTS */
+/* ****************************** */
+
+.btn {
+  display: inline-block;
+  padding: 1.6rem;
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: background-color 1s;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: #007acc;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #0062a3;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 2.4rem;
+}
+
+.heading-primary {
+  font-size: 7.4rem;
+  font-weight: 700;
+  letter-spacing: -2px;
+}
+
+h2 {
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: -1.5px;
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+.grid-2-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  gap: 9.6rem;
+}
+
+.grid-3-col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
+  gap: 4rem;
+  justify-items: center;
+}
