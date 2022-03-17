@@ -1,0 +1,23 @@
+* {
+  background-color: #e6f2fa;
+}
+
+.article {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  max-width: 100rem;
+}
+
+.article-title {
+  font-size: 5.2rem;
+  padding-bottom: 3rem;
+}
+
+.article-desc {
+  font-size: 3rem;
+  padding-bottom: 6.4rem;
+}
+
+.article-content {
+  font-size: 2rem;
+}
