@@ -35,7 +35,7 @@ app.get('/blog/:slug', (req, res) => {
 
 app.post('/getData', (req, res) => {
     const params = req.body
-    const url = 'http://localhost:1337/api/articles?'
+    const url = 'https://swiftportfoliostrapi.herokuapp.com/api/articles?'
     getContentHelper(params, url, (article) => {
         res.send(article)
     })

@@ -21,3 +21,13 @@
 .article-content {
   font-size: 2rem;
 }
+
+.article-content > h1 {
+  font-size: 4rem;
+}
+
+.gist {
+  margin-top: 3.2rem;
+  max-width: 75rem;
+  margin: 3.2rem auto;
+}
