@@ -49,6 +49,10 @@ body {
   color: #333;
 }
 
+button {
+  all: unset;
+}
+
 /* ****************************** */
 /* GENERAL REUSABLE COMPONENTS */
 /* ****************************** */
@@ -83,6 +87,13 @@ body {
   font-size: 7.4rem;
   font-weight: 700;
   letter-spacing: -2px;
+}
+
+.section-heading {
+  margin-bottom: 6.4rem;
+  font-size: 3.6rem;
+  font-weight: 700;
+  letter-spacing: -1.5px;
 }
 
 .grid-2-col {

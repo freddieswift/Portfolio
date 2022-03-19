@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/styles/general/header.css" />
     <link rel="stylesheet" href="/styles/general/hero.css" />
     <link rel="stylesheet" href="/styles/index/aboutMe.css" />
+    <link rel="stylesheet" href="/styles/index/contactMe.css" />
     <link rel="stylesheet" href="/styles/general/blog.css" />
     <title>Freddie Swift</title>
   </head>
@@ -44,7 +45,7 @@
         <div class="container">
           <div class="about-me-content grid-2-col">
             <div class="about-me-info">
-              <h2 class="about-me-heading">About Me</h2>
+              <h2 class="section-heading about-me-heading">About Me</h2>
               <p class="about-me-desc">
                 Hello, my name is Freddie and I am a Computer Science Graduate.
                 I am now working as a Software Tester.
@@ -86,7 +87,7 @@
 
       <section class="blog-section" id="blog-section">
         <div class="container">
-          <h2 class="blog-section-heading">Blog</h2>
+          <h2 class="section-heading">Blog</h2>
           <div class="blog-grid grid-3-col" id="blog-grid"></div>
           <div class="blog-see-all-btn-container">
             <a href="/blog" class="btn blog-see-all-btn">See All</a>
@@ -107,8 +108,54 @@
         </div>
       </section>
 
+      <section class="contact-me-section" id="contact-me-section">
+        <div class="container">
+          <h2 class="section-heading">Contact Me</h2>
+          <div class="contact-me-grid grid-2-col">
+            <div class="contact-me-info">
+              <h2 class="contact-me-title">Let's Get in Touch!</h2>
+              <p class="contact-me-desc">Got any suggestions for this website or any ideas for blog
+                posts? Or just fancy a chat? Please reach out to me using the
+                form or get in touch via my social channels!</p>
+              <div class="social-links">
+                <a href="https://github.com/freddieswift" target="_blank">
+                  <ion-icon name="logo-github" class="social-icon" size="large"></ion-icon>
+                </a>
+                <a href="https://www.linkedin.com/in/freddie-swift/" target="_blank">
+                  <ion-icon name="logo-linkedin" class="social-icon" size="large"></ion-icon>
+                </a>
+              </div>
+              
+            </div>
+            <div class="contact-me-form-container">
+              <form
+                class="contact-me-form"
+                action="https://formsubmit.co/freddie_swift@outlook.com"
+                method="POST"
+              >
+                <div>
+                  <label for="name" class="contact-me-label">Name</label>
+                  <input name="name" id="name" type="text" required />
+                </div>
+                <div>
+                  <label for="email">Email</label>
+                  <input name="email" id="email" type="email" required />
+                </div>
+                <div>
+                  <label class="message-label" for="message">Message</label>
+                  <textarea name="message" type="text" required></textarea>
+                </div>
+                <button class="btn form-btn">Send</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
     </main>
 
     <script src="js/populateBlogCards.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
   </body>
 </html>

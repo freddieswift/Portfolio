@@ -9,13 +9,6 @@
   padding-top: 9.6rem;
 }
 
-.blog-section-heading {
-  margin-bottom: 6.4rem;
-  font-size: 3.6rem;
-  font-weight: 700;
-  letter-spacing: -1.5px;
-}
-
 .blog-card {
   height: 45rem;
   max-width: 30rem;
@@ -96,4 +89,12 @@
 
 .custom-shape-divider-bottom-1647275018 .shape-fill {
   fill: #ffffff;
+}
+
+.blog-hero-section {
+  padding-bottom: 1.6rem;
+}
+
+.blog-hero-desc {
+  margin-bottom: 0;
 }
