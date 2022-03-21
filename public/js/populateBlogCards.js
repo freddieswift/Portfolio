@@ -2,6 +2,7 @@ const getArticles = (callback) => {
     const params = {
         fields: ['title', 'slug', 'description'],
         populate: "tags",
+        sort: 'publishedAt:desc'
     }
 
     const pathname = window.location.pathname;

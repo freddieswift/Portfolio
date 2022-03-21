@@ -2,6 +2,14 @@
   background-color: #e6f2fa;
 }
 
+h2 {
+  margin-bottom: 1.6rem;
+}
+p {
+  margin-bottom: 3.2rem;
+  line-height: 2.5rem;
+}
+
 .article {
   padding-top: 8rem;
   padding-bottom: 8rem;
@@ -16,6 +24,7 @@
 .article-desc {
   font-size: 3rem;
   padding-bottom: 6.4rem;
+  line-height: 3rem;
 }
 
 .article-content {

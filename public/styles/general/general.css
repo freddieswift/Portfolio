@@ -98,7 +98,7 @@ button {
 
 .grid-2-col {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(33rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(28rem, 1fr));
   gap: 9.6rem;
 }
 

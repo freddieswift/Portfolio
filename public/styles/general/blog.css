@@ -58,6 +58,8 @@
 .blog-card-desc {
   font-size: 1.6rem;
   color: #555;
+  text-overflow: ellipsis;
+  height: 2.55rem;
 }
 
 .blog-see-all-btn-container {
